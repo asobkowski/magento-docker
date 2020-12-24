@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM asobkowski/magento-docker:magento-2.4.1-php73
+FROM scandipwa/php:magento-2.4.1
 
 # Set bash by default
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
